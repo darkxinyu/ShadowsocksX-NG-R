@@ -82,13 +82,17 @@ class PreferencesWindowController: NSWindowController
             "auth_aes128_md5",
             "auth_chain_a",
             "auth_chain_b",
+            "auth_chain_c",
+            "auth_chain_d",
+            "auth_chain_e",
+            "auth_chain_f",
             ])
         ObfsTextField.addItems(withObjectValues: [
             "plain",
             "http_simple",
             "tls_simple",
             "http_post",
-            "tls1.2_ticket_auth",
+            "tls1.2_ticket_auth"
             ])
         profilesTableView.reloadData()
         updateProfileBoxVisible()
